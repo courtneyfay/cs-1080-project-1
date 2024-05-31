@@ -2,3 +2,7 @@ body {
     color: hotpink;
     font-weight: 800;
 }
+
+.nav-bar {
+    list-style-type: none;
+}
