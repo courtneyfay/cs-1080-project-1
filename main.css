@@ -64,3 +64,16 @@ body p {
 .content {
     padding: 0px 30px 0px 30px;
 }
+
+/* Home Page content */
+#past-image {
+    width: 300px;
+}
+
+#present-image {
+    height: 300px;
+}
+
+#future-image {
+    height: 300px;
+}
