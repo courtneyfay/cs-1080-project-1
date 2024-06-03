@@ -1,8 +1,50 @@
+/* Theme colors
+black - #0C0B0F
+white - #E6DCEC
+purple - #5F1C74
+pink - #912261
+light pink - #EADBF9
+blue - #023A83
+inspired by: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages%2Fartworkimages%2Fmediumlarge%2F1%2Fmoon-fairy-lynne-mcqueen.jpg&f=1&nofb=1&ipt=6d53546b787d8b9e9c912e619e09647ef77dc0cc0e4e94e9e27b93bde4b095d4&ipo=images
+*/
+
+/* Theme font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/* SITEWIDE */
 body {
-    color: hotpink;
+    color: #912261;
     font-weight: 800;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    background-color: #E6DCEC;
 }
 
+body a {
+    color: #0C0B0F;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #912261;
+}
+
+/* Nav Bar */
 .nav-bar {
+    height: 80px;
+    padding: 15px;
+    background-color: #EADBF9;
+}
+
+.nav-container {
+    float: right;
+}
+
+.nav-list {
     list-style-type: none;
+}
+
+.nav-item {
+    display: inline;
 }
