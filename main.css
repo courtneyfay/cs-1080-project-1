@@ -17,6 +17,7 @@ body {
     font-family: 'EB Garamond', sans-serif;
     margin: 0 auto;
     background-color: #F0E7F4;
+    text-align: center;
 }
 
 body a {
@@ -28,11 +29,17 @@ body a {
 }
 
 body a:hover {
-    color: #912261;
+    color: #912261; 
 }
-
-body h1,h2,h3,h4,h5,h6 {
+    
+body h1,h2 {
     color: #912261;
+    font-weight: 800;
+}
+        
+body h3,h4,h5,h6 {
+    /* this rgb color is the same as hex code #912261 */
+    color: rgb(145, 34, 97, 0.7);
     font-weight: 800;
 }
 
@@ -44,6 +51,10 @@ body p {
 .nav-bar {
     padding: 70px 30px 30px 30px;
     background-color: #EADBF9;
+}
+
+.home-logo {
+    float: left;
 }
 
 .nav-container {
